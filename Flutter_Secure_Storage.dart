@@ -1,3 +1,8 @@
+// Make sure minSdkversion is above 18 ( in build.gradle)
+
+dependencies:
+  flutter_secure_storage: ^9.0.0  // Add this package 
+    
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
